@@ -1,0 +1,56 @@
+:root {
+    --primary-color: gold;
+}
+
+/* h1 {
+border: 4px solid black;
+} */
+
+.menu {
+    color: rgb(8, 234, 12);
+    list-style-type: none;
+}
+
+#h2-main {
+    color: rgb(8, 234, 12);
+}
+
+.button {
+    color: white;
+    background-color: var(--primary-color);
+    size: 22;
+    border-radius: 8px;
+    cursor: pointer;
+    border-color: var(--primary-color);
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+}
+
+.header-link {
+    color: var(--primary-color);
+}
+
+.header-link:hover {
+    color: greenyellow;
+}
+
+/* .hero-title {
+    color: ;
+} */
+
+.hero-title .accent {
+    color: var(--primary-color);
+}
+
+.advantages-list {
+    background-color: var(--primary-color);
+    list-style-type: none;
+}
